@@ -1,0 +1,351 @@
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=15M
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=4M
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=18M
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=12M
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=C:\projects\KK\WizardGraph\DB\Wizard.graphDB
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: keep_logical_logs=true
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=14M
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: ephemeral=false
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 4.00 GB
+2014-05-25 10:54:14.093+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 2.94 GB
+2014-05-25 10:54:14.094+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 109.50 MB
+2014-05-25 10:54:14.094+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 4.00 GB
+2014-05-25 10:54:14.094+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 3.17 GB
+2014-05-25 10:54:14.094+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2014-05-25 10:54:14.094+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 15.30 MB
+2014-05-25 10:54:14.094+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 30.25 MB
+2014-05-25 10:54:14.094+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 247.50 MB
+2014-05-25 10:54:14.094+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: Copy: [Eden Space, Survivor Space]
+2014-05-25 10:54:14.094+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: MarkSweepCompact: [Eden Space, Survivor Space, Tenured Gen, Perm Gen, Perm Gen [shared-ro], Perm Gen [shared-rw]]
+2014-05-25 10:54:14.094+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=5.00 MB, used=4.99 MB, max=32.00 MB, threshold=0.00 B
+2014-05-25 10:54:14.094+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Eden Space (Heap memory): committed=8.44 MB, used=2.62 MB, max=68.31 MB, threshold=?
+2014-05-25 10:54:14.094+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Survivor Space (Heap memory): committed=1.00 MB, used=0.00 B, max=8.50 MB, threshold=?
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Tenured Gen (Heap memory): committed=20.81 MB, used=12.48 MB, max=170.69 MB, threshold=0.00 B
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Perm Gen (Non-heap memory): committed=26.75 MB, used=26.72 MB, max=64.00 MB, threshold=0.00 B
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Perm Gen [shared-ro] (Non-heap memory): committed=10.00 MB, used=4.19 MB, max=10.00 MB, threshold=0.00 B
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Perm Gen [shared-rw] (Non-heap memory): committed=12.00 MB, used=6.27 MB, max=12.00 MB, threshold=0.00 B
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Windows 8; version: 6.2; arch: x86; cpus: 2
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 5528@KK-VM-Windows8
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Australia/Sydney
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) Client VM
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.45-b08
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot Client Compiler
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Dexe4j.semaphoreName=Local\c:_program_files_(x86)_neo4j_community_bin_neo4j-community.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe, -Dexe4j.processCommFile=C:\Users\KKURNI~1\AppData\Local\Temp\e4j_p5528.tmp, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\Program Files (x86)\Parallels\Parallels Tools\Applications;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;c:\program files (x86)\java\jre7\bin;c:\program files (x86)\java\jre7\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false]
+2014-05-25 10:54:14.095+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jre7\classes
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jre7\lib\jce.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] C:\Program Files (x86)\Neo4j Community\.install4j\i4jruntime.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] C:\Program Files (x86)\Neo4j Community\bin\neo4j-desktop-2.1.0-RC2.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jre7/lib/ext/sunjce_provider.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jre7/lib/ext/sunec.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jre7/lib/ext/sunpkcs11.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jre7\lib\resources.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jre7/lib/ext/localedata.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jre7/lib/ext/dnsns.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jre7/lib/ext/sunmscapi.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/C:/Program%20Files%20(x86)/Neo4j%20Community/bin/
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jre7\lib\jsse.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/C:/Program%20Files%20(x86)/Neo4j%20Community/.install4j/i4jruntime.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jre7\lib\charsets.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jre7/lib/ext/access-bridge-32.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jre7/lib/ext/jaccess.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jre7\lib\jfr.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jre7/lib/ext/zipfs.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/C:/Program%20Files%20(x86)/Neo4j%20Community/bin/neo4j-desktop-2.1.0-RC2.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jre7\lib\rt.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jre7\lib\sunrsasign.jar
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Parallels\Parallels Tools\Applications
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2014-05-25 10:54:14.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\wbem
+2014-05-25 10:54:14.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\WindowsPowerShell\v1.0
+2014-05-25 10:54:14.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0
+2014-05-25 10:54:14.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\Microsoft SQL Server\110\Tools\Binn
+2014-05-25 10:54:14.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE
+2014-05-25 10:54:14.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn
+2014-05-25 10:54:14.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\Microsoft SQL Server\100\Tools\Binn
+2014-05-25 10:54:14.099+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn
+2014-05-25 10:54:14.099+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio
+2014-05-25 10:54:14.099+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn
+2014-05-25 10:54:14.099+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn
+2014-05-25 10:54:14.099+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\Microsoft SQL Server\110\DTS\Binn
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\Microsoft\Web Platform Installer
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Git\cmd
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Git\bin
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Java\jre7\bin
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Java\jre7\bin
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.moduleName = C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.processCommFile = C:\Users\KKURNI~1\AppData\Local\Temp\e4j_p5528.tmp
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.semaphoreName = Local\c:_program_files_(x86)_neo4j_community_bin_neo4j-community.exe
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = c:\program files (x86)\java\jre7\bin
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.consoleCodepage = cp0
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = ;
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.script = 
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = 
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.exeDir = C:\Program Files (x86)\Neo4j Community\bin\
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = C:\Program Files (x86)\Neo4j Community\bin
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.variant = 
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.tempDir = 
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = Cp1252
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.awt.enableExtraMouseButtons = true
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.launcherId = 24
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot Client Compiler
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.isInstall4j = true
+2014-05-25 10:54:14.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.swt = false
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = \\psf\Home
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Australia/Sydney
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = Cp1252
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.launcher = desktop
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = kkurniawan
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 32
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.launchName = C:\PROGRA~2\NEO4JC~1\bin\NEO4J-~1.EXE
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.awt.windows.WToolkit
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.unextractedPosition = 0
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.appDir = C:\Program Files (x86)\Neo4j Community\
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = \
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.desktop = windows
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+2014-05-25 10:54:14.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Software Loopback Interface 1:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Kernel Debug Network Adapter:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Intel(R) PRO/1000 MT Network Connection:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 10.211.55.4
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fdb2:2c26:f4e4:0:89be:cbba:cfc3:ba74
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fdb2:2c26:f4e4:0:1d49:79c7:1e61:4874
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:89be:cbba:cfc3:ba74%3
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:5efe:ad3:3704%4
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Teredo Tunneling Pseudo-Interface:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 2001:0:5ef5:79fb:80e:38ea:f52c:c8fb
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:80e:38ea:f52c:c8fb%5
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Juniper Network Connect Virtual Adapter:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:5451:abc2:6f9:56a0%6
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter #2:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Intel(R) PRO/1000 MT Network Connection-WFP Native MAC Layer LightWeight Filter-0000:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Intel(R) PRO/1000 MT Network Connection-QoS Packet Scheduler-0000:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Intel(R) PRO/1000 MT Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Juniper Network Connect Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Juniper Network Connect Virtual Adapter-QoS Packet Scheduler-0000:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Juniper Network Connect Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2014-05-25 10:54:14.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2014-05-25 10:54:14.118+0000 INFO  [o.n.k.i.n.s.StoreFactory]: Creating new db @ C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore
+2014-05-25 10:54:14.157+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-25 10:54:14.157+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-25 10:54:14.158+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.161+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.169+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-25 10:54:14.170+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-25 10:54:14.171+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.173+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.186+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-25 10:54:14.188+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-25 10:54:14.188+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-25 10:54:14.188+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-25 10:54:14.188+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.strings] brickCount=0 brickSize=12544b mappedMem=12582912b (storeSize=128b)
+2014-05-25 10:54:14.190+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-25 10:54:14.190+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-25 10:54:14.190+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.arrays] brickCount=0 brickSize=14592b mappedMem=14680064b (storeSize=128b)
+2014-05-25 10:54:14.190+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db] brickCount=0 brickSize=157276b mappedMem=15728640b (storeSize=0b)
+2014-05-25 10:54:14.191+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshipstore.db] brickCount=0 brickSize=188734b mappedMem=18874368b (storeSize=0b)
+2014-05-25 10:54:14.191+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2014-05-25 10:54:14.192+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.nodestore.db] brickCount=0 brickSize=41940b mappedMem=4194304b (storeSize=0b)
+2014-05-25 10:54:14.192+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2014-05-25 10:54:14.193+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshipgroupstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=25b)
+2014-05-25 10:54:14.193+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-25 10:54:14.194+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.198+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.201+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.204+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.206+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.209+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.212+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.215+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.217+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.220+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.222+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.225+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.229+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.230+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshipgroupstore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.236+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore hit=0 miss=8 switches=0 ooe=0
+2014-05-25 10:54:14.238+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-25 10:54:14.239+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-25 10:54:14.239+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-25 10:54:14.240+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-25 10:54:14.240+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.strings] brickCount=0 brickSize=12544b mappedMem=12582912b (storeSize=128b)
+2014-05-25 10:54:14.241+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-25 10:54:14.241+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-25 10:54:14.242+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.arrays] brickCount=0 brickSize=14592b mappedMem=14680064b (storeSize=128b)
+2014-05-25 10:54:14.242+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db] brickCount=0 brickSize=157276b mappedMem=15728640b (storeSize=0b)
+2014-05-25 10:54:14.243+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshipstore.db] brickCount=0 brickSize=188734b mappedMem=18874368b (storeSize=0b)
+2014-05-25 10:54:14.243+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2014-05-25 10:54:14.243+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.nodestore.db] brickCount=0 brickSize=41940b mappedMem=4194304b (storeSize=0b)
+2014-05-25 10:54:14.244+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2014-05-25 10:54:14.244+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshipgroupstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=25b)
+2014-05-25 10:54:14.245+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=63b)
+2014-05-25 10:54:14.246+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2014-05-25 10:54:14.247+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2014-05-25 10:54:14.250+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2014-05-25 10:54:14.252+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: Rebuilding lucene scan store, this may take a while
+2014-05-25 10:54:14.252+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: Lucene scan store rebuilt (roughly -1 nodes)
+2014-05-25 10:54:14.253+0000 INFO  [o.n.k.i.t.TxManager]: TM new log: tm_tx_log.1
+2014-05-25 10:54:14.256+0000 INFO  [o.n.k.i.t.KernelHealth]: Kernel health set to OK
+2014-05-25 10:54:14.258+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [C:\projects\KK\WizardGraph\DB\Wizard.graphDB\index\lucene.log.1] version=0, lastTxId=1 (clean)
+2014-05-25 10:54:14.260+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2014-05-25 10:54:14.260+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1401015254118, id:-1914858758129017972, store version: -2]
+2014-05-25 10:54:14.260+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j Desktop (neo4j-desktop), version: 2.1.0-RC2
+2014-05-25 10:54:14.260+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-jmx), version: 2.1.0-RC2; revision: 2.1.0-RC2:master:318/d52270802ee0b9eae49bacf126286005b0f4659d
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-lucene-index), version: 2.1.0-RC2; revision: 2.1.0-RC2:master:318/d52270802ee0b9eae49bacf126286005b0f4659d
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-graph-matching), version: 2.1.0-RC2; revision: 2.1.0-RC2:master:318/d52270802ee0b9eae49bacf126286005b0f4659d
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (server-api), version: 2.1.0-RC2; revision: 2.1.0-RC2:master:318/d52270802ee0b9eae49bacf126286005b0f4659d
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-cypher), version: 2.1.0-RC2; revision: 2.1.0-RC2:master:318/d52270802ee0b9eae49bacf126286005b0f4659d
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-desktop), version: 2.1.0-RC2; revision: 2.1.0-RC2:master:318/d52270802ee0b9eae49bacf126286005b0f4659d
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-server), version: 2.1.0-RC2; revision: 2.1.0-RC2:master:318/d52270802ee0b9eae49bacf126286005b0f4659d
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-cypher-compiler-2.0), version: 2.1.0-RC2; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-graph-algo), version: 2.1.0-RC2; revision: 2.1.0-RC2:master:318/d52270802ee0b9eae49bacf126286005b0f4659d
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-shell), version: 2.1.0-RC2; revision: 2.1.0-RC2:master:318/d52270802ee0b9eae49bacf126286005b0f4659d
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-cypher-compiler-1.9), version: 2.1.0-RC2; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-udc), version: 2.1.0-RC2; revision: 2.1.0-RC2:master:318/d52270802ee0b9eae49bacf126286005b0f4659d
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-cypher-commons), version: 2.1.0-RC2; revision: 2.1.0-RC2:master:318/d52270802ee0b9eae49bacf126286005b0f4659d
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.3
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore v0.A.3
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.3
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.3
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.3
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore v0.A.3
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.3
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.3
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.3
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.3
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipGroupStore v0.A.3
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore: used=1 high=0
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=0 high=-1
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=0 high=-1
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=0 high=-1
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore: used=0 high=-1
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=0 high=-1
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=0 high=-1
+2014-05-25 10:54:14.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=1 high=0
+2014-05-25 10:54:14.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2014-05-25 10:54:14.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipGroupStore: used=1 high=0
+2014-05-25 10:54:14.263+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2014-05-25 10:54:14.263+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2014-05-25 10:54:14.263+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2014-05-25 10:54:14.263+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2014-05-25 10:54:14.263+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 68350373888 / 24075898880 / 35
+Storage files: (filename : modification date - size)
+2014-05-25 10:54:14.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2014-05-25T20:54:14+1000 - 11.00 B
+2014-05-25 10:54:14.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2014-05-25 10:54:14.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2014-05-25T20:54:14+1000 - 40.00 B
+2014-05-25 10:54:14.264+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2014-05-25T20:54:14+1000 - 16.00 B
+2014-05-25 10:54:14.264+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2014-05-25T20:54:14+1000 - 4.00 B
+2014-05-25 10:54:14.264+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2014-05-25T20:54:14+1000 - 60.00 B
+2014-05-25 10:54:14.264+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.267+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2014-05-25T20:54:13+1000 - 37.42 kB
+2014-05-25 10:54:14.267+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neo4j.properties: 2014-05-25T20:54:13+1000 - 1.08 kB
+2014-05-25 10:54:14.268+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2014-05-25T20:54:14+1000 - 63.00 B
+2014-05-25 10:54:14.268+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.268+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.269+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.269+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names: 2014-05-25T20:54:14+1000 - 38.00 B
+2014-05-25 10:54:14.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels: 2014-05-25T20:54:14+1000 - 68.00 B
+2014-05-25 10:54:14.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2014-05-25T20:54:14+1000 - 128.00 B
+2014-05-25 10:54:14.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.274+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2014-05-25T20:54:14+1000 - 38.00 B
+2014-05-25 10:54:14.274+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.275+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2014-05-25T20:54:14+1000 - 128.00 B
+2014-05-25 10:54:14.275+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.276+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipgroupstore.db: 2014-05-25T20:54:14+1000 - 25.00 B
+2014-05-25 10:54:14.276+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipgroupstore.db.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.276+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.277+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.277+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.277+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.279+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2014-05-25T20:54:14+1000 - 38.00 B
+2014-05-25 10:54:14.279+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.279+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db: 2014-05-25T20:54:14+1000 - 64.00 B
+2014-05-25 10:54:14.279+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db.id: 2014-05-25T20:54:14+1000 - 9.00 B
+2014-05-25 10:54:14.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2014-05-25T20:54:14+1000 - 16.00 B
+2014-05-25 10:54:14.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2014-05-25T20:54:14+1000 - 4.00 B
+2014-05-25 10:54:14.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:   schema:
+2014-05-25 10:54:14.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:     label:
+2014-05-25 10:54:14.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:       lucene:
+2014-05-25 10:54:14.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:         write.lock: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.281+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.281+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2014-05-25T20:54:14+1000 - 0.00 B
+2014-05-25 10:54:14.281+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2014-05-25 10:54:14.281+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now ready
+2014-05-25 10:54:14.281+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
+2014-05-25 10:54:14.281+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now unavailable
+2014-05-25 10:54:14.282+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor started. 
+2014-05-25 10:54:14.282+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor stopped. 
+2014-05-25 10:54:14.286+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log C:\projects\KK\WizardGraph\DB\Wizard.graphDB\index\lucene.log
+2014-05-25 10:54:14.290+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2014-05-25 10:54:14.300+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log C:\projects\KK\WizardGraph\DB\Wizard.graphDB\nioneo_logical.log
+2014-05-25 10:54:14.302+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.305+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.308+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.310+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.313+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.316+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.319+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.321+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.328+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.331+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.333+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.336+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.339+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.342+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore.relationshipgroupstore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-25 10:54:14.346+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\projects\KK\WizardGraph\DB\Wizard.graphDB\neostore hit=0 miss=14 switches=0 ooe=0
+2014-05-25 10:54:14.349+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2014-05-25 10:54:14.349+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2014-05-25 10:54:14.349+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
