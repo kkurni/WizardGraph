@@ -1,11 +1,39 @@
-== Help me choose anything
-This is wizard graph for recomendation.
-Usecase : Helpme choose anything
+== What is this ?
+To run this interactively open this on graphgist
+http://gist.neo4j.org/?github-kkurni%2FWizardGraph%2F%2FDB%2Fdocs%2Fwizard-form.adocs
 
 [source,cypher]
 ----
-CREATE (question1{name:'what is the trigger?'})-[:HAS_OPTION]->(option1{name:'I am first buyer'})
-CREATE (question1)-[:HAS_OPTION]->(option2{name:'Is my second car'})
+CREATE (Q1{id:'Q1', name:'Why are you buying a new car ?'})
+CREATE (Q1)-[:HAS_OPTION]->(Opt1_1{id:'Opt1_1', name:'Upgrading my current car'})
+CREATE (Q1)-[:HAS_OPTION]->(Opt1_2{id:'Opt1_2',name:'Growing Family'})
+CREATE (Q1)-[:HAS_OPTION]->(Opt1_3{id:'Opt1_3',name:'My first car'})
+CREATE (Q1)-[:HAS_OPTION]->(Opt1_4{id:'Opt1_4',name:'Other'})
+
+
+CREATE (Q2{id:'Q2', name:'What car do you currently owned ?'})
+CREATE (Opt1_1)-[:NEXT_QUESTION]->(Q2)
+CREATE (Opt1_2)-[:NEXT_QUESTION]->(Q2)
+
+
+CREATE (Q3{id:'Q3', name:'What do you like about your car ?'})
+CREATE (Q2)-[:NEXT_QUESTION]->(Q3)
+
+
+CREATE (Q4{id:'Q4', name:'Tell us who you are ?'})
+CREATE (Q3)-[:NEXT_QUESTION]->(Q4)
+CREATE (Opt1_3)-[:NEXT_QUESTION]->(Q4)
+CREATE (Opt1_4)-[:NEXT_QUESTION]->(Q4)
+
+CREATE (Q4)-[:HAS_OPTION]->(Opt4_1{id:'Opt4_1', name:'Active');
+CREATE (Q4)-[:HAS_OPTION]->(Opt4_2{id:'Opt4_2', name:'Big Family');
+CREATE (Q4)-[:HAS_OPTION]->(Opt4_3{id:'Opt4_3', name:'Young and care free');
+
+CREATE (Q5{id:'Q5', name:'Choose what is important to you ?'})
+CREATE (Opt4_1)-[:NEXT_QUESTION]->(Q5);
+CREATE (Opt4_2)-[:NEXT_QUESTION]->(Q5);
+CREATE (Opt4_3)-[:NEXT_QUESTION]->(Q5);
+
 ----
 
 //console
