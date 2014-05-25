@@ -1,0 +1,14 @@
+== Help me choose anything
+This is wizard graph for recomendation.
+Usecase : Helpme choose anything
+
+[source,cypher]
+----
+CREATE (question1{name:'what is the trigger?'})-[:HAS_OPTION]->(option1{name:'I am first buyer'})
+CREATE (question1)-[:HAS_OPTION]->(option2{name:'Is my second car'})
+----
+
+//console
+
+//graph
+
